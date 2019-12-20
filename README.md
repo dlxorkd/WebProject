@@ -14,7 +14,7 @@
 Keeping dayBreeze running after closing the terminal can be done in a few ways but we recommend using the `PM2` package. To set this up:
 
 1. Install PM2: `npm install pm2 -g`
-2. Add dayBreeze to PM2: `NODE_ENV=production pm2 start app.js --name "expressCart"`
+2. Add dayBreeze to PM2: `NODE_ENV=production pm2 start app.js --name "dayBreeze"`
 3. Check PM2 has our app: `pm2 list`
 4. Save the PM2 config: `pm2 save`
 5. To start/stop: `pm2 start dayBreeze` / `pm2 stop dayBreeze`
