@@ -1,0 +1,50 @@
+<div class="col-xs-12 col-md-12">
+    <div class="form-group">
+        <input type="email" class="form-control customerDetails" id="shipEmail" name="shipEmail" minlength="5" placeholder={{ @root.__ "Email address"}} value="{{session.customer.email}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-6">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipFirstname" name="shipFirstname" placeholder={{ @root.__ "First name"}} value="{{session.customer.firstName}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-6">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipLastname" name="shipLastname" placeholder={{ @root.__ "Last name"}} value="{{session.customer.lastName}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-12">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipAddr1" name="shipAddr1" placeholder={{ @root.__ "Address 1"}} value="{{session.customer.address1}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-12">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipAddr2" name="shipAddr2" placeholder={{ @root.__ "Address 2 (optional)"}} value="{{session.customer.address1}}">
+    </div>
+</div>
+<div class="col-xs-12 col-md-4">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipCountry" name="shipCountry" placeholder={{ @root.__ "Country"}} value="{{session.customer.country}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-4">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipState" name="shipState" placeholder={{ @root.__ "State"}} value="{{session.customer.state}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-4">
+    <div class="form-group">
+        <input type="text" class="form-control customerDetails" id="shipPostcode" name="shipPostcode" placeholder={{ @root.__ "Post code"}} value="{{session.customer.postcode}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-12">
+    <div class="form-group">
+        <input type="number" class="form-control customerDetails" id="shipPhoneNumber" name="shipPhoneNumber" placeholder={{ @root.__ "Phone number"}} value="{{session.customer.phone}}" required>
+    </div>
+</div>
+<div class="col-xs-12 col-md-12">
+    <div class="form-group">
+        <textarea class="form-control customerDetails" placeholder={{ @root.__ "Order comment"}} id="orderComment" name="orderComment"></textarea>
+    </div>
+</div>

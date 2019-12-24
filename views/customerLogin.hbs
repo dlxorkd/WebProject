@@ -1,0 +1,20 @@
+<div class="panel-body customer-details-login" style = "text-align:center">
+	<div style = "width : 30%; padding-top:5%; display : inline-block">
+		<h2 class="form-signin-heading" style = "text-align: left;">{{ @root.__ "Please sign in" }}</h2>
+		<div class="form-group">
+			<input type="email" class="form-control" id="customerLoginEmail" name="loginEmail" minlength="5" placeholder="Email address" required>
+		</div>
+		<div class="form-group">
+			<input type="password" class="form-control" id="customerLoginPassword" name="loginPassword" minlength="5" placeholder="Password" required>
+		</div>
+		<div class="form-group">
+			<a href="/customer/forgotten" class="btn btn-default pull-left">{{ @root.__ "Forgotten" }}</a>
+		</div>
+		<div class="form-group">
+			<a href="/signup" class="btn btn-default pull-left">{{ @root.__ "Signup" }}</a>
+		</div>
+		<div class="form-group">
+			<button id="mainCustomerLogin" class="btn btn-success pull-right" type="submit">Login</button>
+		</div>
+	</div>
+</div>
